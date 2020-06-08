@@ -5,4 +5,4 @@
 python 3.7 üzerinde test edilmiş, başarılı sonuç alınmıştır. 
 
 kullanılan kütüphaneler python ile hazır şekilde geldiğinden
-bilgisayayrınıza pythonun (hata olmaması açısından 3.7 tavsiye) bir sürümünü kurarak çalıştırabilirsiniz.
+bilgisayarınıza pythonun (hata olmaması açısından 3.7 tavsiye) bir sürümünü kurarak çalıştırabilirsiniz.
