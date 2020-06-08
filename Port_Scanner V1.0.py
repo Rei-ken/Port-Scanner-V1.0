@@ -18,7 +18,9 @@ def scan():
                 hedef_ip=gethostbyname(hedef)
                 print("taranıyor:",hedef_ip)
         
-                for i in range(6555):
+                for i in range(6555):#Mevcut 6555 ayarında tüm portları teker teker tarayacaktır.
+#Değiştirmek  için taranmasını istediğiniz port aralığını yazınız örneğin 50.porttan 60.portun arasındaki 
+#Portları tarayacaksanız for i in range(50,60) şeklinde düzenleyebilirsiniz.
                                 baglantı=socket(AF_INET,SOCK_STREAM)
                                 port_tarama=baglantı.connect_ex((hedef_ip,i))
                                 if(port_tarama==0):
